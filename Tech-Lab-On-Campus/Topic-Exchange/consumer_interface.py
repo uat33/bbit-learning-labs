@@ -44,7 +44,6 @@ class mqConsumerInterface:
 
     def on_message_callback(self, channel, method_frame, header_frame, body):
         # De-Serialize JSON message object if Stock Object Sent
-
         # Acknowledge And Print Message
 
         pass
